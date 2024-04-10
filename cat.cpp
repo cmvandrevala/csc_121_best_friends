@@ -12,3 +12,8 @@ void Cat::play()
 {
   cout << "Meow meow... murder the chipmunks..." << endl;
 }
+
+string Cat::get_name()
+{
+  return this->cat_name;
+}

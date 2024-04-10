@@ -10,5 +10,6 @@ private:
 
 public:
   Cat(string name);
+  string get_name();
   void play();
 };

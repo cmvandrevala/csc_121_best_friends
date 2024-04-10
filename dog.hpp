@@ -9,8 +9,9 @@ class Dog
 {
 private:
   string name;
+  optional<Cat> best_friend;
 
 public:
-  Dog(string name);
+  Dog(string name, Cat cat);
   void play();
 };

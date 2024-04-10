@@ -5,13 +5,12 @@
 int main()
 {
   Cat cat = Cat("Princess Fluffywhiskers");
-  Dog dog = Dog("Sparky");
+  Dog dog_one = Dog("Sparky", cat);
+  Dog dog_two = Dog("Lucy", cat);
 
-  cat.play();
-  dog.play();
+  dog_one.play();
 
-  take_to_the_park(dog);
-  take_to_the_park(cat);
+  dog_two.play();
 
   return 0;
 }
