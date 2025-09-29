@@ -1,8 +1,6 @@
 # Best Friends
 
-In this project, we create a little pet-grooming app. It includes a list of pets that we want to groom along with functions to add a new pet and clean the next pet on the list.
-
-This codebase introduces some of the principles of object-oriented programming in C++. We see how to create classes outside of the `main` file, use header files in a project, and write tests for classes.
+In this repository, we go over a simple example of dependency injection with two classes. We also who how objects can be passed as arguments to C++ functions.
 
 ## Building Executables With CMake Via the Terminal
 

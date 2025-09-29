@@ -6,9 +6,9 @@ class Dog
 {
 private:
   std::string name;
-  Cat *best_friend;
 
 public:
   Dog(std::string name, Cat *cat);
+  Cat *best_friend;
   void play();
 };
